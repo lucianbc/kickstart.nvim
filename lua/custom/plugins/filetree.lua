@@ -10,5 +10,6 @@ return {
   },
   config = function ()
     require('neo-tree').setup {}
+    vim.cmd([[nnoremap \ :Neotree focus<cr>]])
   end,
 }
