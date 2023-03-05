@@ -14,5 +14,6 @@ return {
     })
 
     vim.cmd([[nnoremap \ :Neotree focus<cr>]])
+    vim.cmd([[nnoremap <leader>\ :Neotree reveal<cr>]])
   end,
 }
