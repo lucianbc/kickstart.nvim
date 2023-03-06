@@ -3,3 +3,7 @@ nnoremap <M-j> :m .+1<CR>==
 nnoremap <M-k> :m .-2<CR>==
 vnoremap <M-j> :m '>+1<CR>gv=gv
 vnoremap <M-k> :m '<-2<CR>gv=gv
+
+" Make d really deleve
+nnoremap d "_d
+vnoremap d "_d
