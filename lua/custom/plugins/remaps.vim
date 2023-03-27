@@ -7,6 +7,3 @@ vnoremap <M-k> :m '<-2<CR>gv=gv
 " Make d really delete
 nnoremap d "_d
 vnoremap d "_d
-
-nnoremap p "_p
-vnoremap p "_p
