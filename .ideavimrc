@@ -24,6 +24,10 @@ set which-key
 set timeoutlen=5000
 
 source  ~/.config/nvim/lua/custom/plugins/remaps.vim
+
+nnoremap <leader>h :action Back<cr>
+nnoremap <leader>l :action Forward<cr>
+
 set commentary
 set relativenumber
 set number
